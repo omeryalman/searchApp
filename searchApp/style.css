@@ -1,0 +1,16 @@
+#pictures-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pictures-list>.card{
+margin: 2px;
+border:1px solid gray;
+padding: 2px;
+box-shadow: 2px 4px 7px lightgray;
+
+}
+
+#pictures-list>.card:hover{
+    box-shadow: 6px 10px 20px black
+}
